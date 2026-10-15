@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sessions | FOSS Club</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="pagehead"><div class="wrap">
+  <div class="tag">ARCHIVE</div>
+  <h1>Previous Sessions</h1>
+  <p>Slides and PDFs from our past sessions. Swipe or use the arrows.</p>
+</div></div>
+
+<section>
+  <div class="wrap">
+    <div class="slider-head">
+      <div></div>
+      <div class="arrows">
+        <button id="prev" aria-label="Previous">&larr;</button>
+        <button id="next" aria-label="Next">&rarr;</button>
+      </div>
+    </div>
+    <div class="track" id="track"></div>
+
+    <div class="howto">
+      <b>Adding a new session</b>
+      <p class="sub" style="margin:6px 0 0">Copy the PPT or PDF into the <code>sessions/</code> folder, then add one entry to the <code>SESSIONS</code> list in <code>data.js</code>.</p>
+    </div>
+  </div>
+</section>
+</main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
